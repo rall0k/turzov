@@ -1,4 +1,14 @@
-<script setup lang="ts"></script>
+<script setup>
+	useSeoMeta({
+
+	})
+	defineI18nRoute({
+		paths: {
+			sk: '/ubytovanie',
+			en: '/accommodation',
+		}
+	})
+</script>
 
 <template>
   <div>

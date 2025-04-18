@@ -1,6 +1,9 @@
 <script setup>
 const i18n = useI18n()
 
+const { data: home }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/home`).first())
+const { data: accommodation }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/accommodation`).first())
+
 </script>
 
 <template>
@@ -8,7 +11,7 @@ const i18n = useI18n()
 		<NuxtLink :to="$localePath('index', i18n.locale.value)">Penzión Turzov</NuxtLink>
 		<section class="nav-locale">
 			<nav>
-				<NuxtLink :to="$localePath('accommodation', i18n.locale.value)">Ubytovanie</NuxtLink>
+				<NuxtLink :to="$localePath(accommodation.body.id, i18n.locale.value)">{{ accommodation.body.title }}</NuxtLink>
 				<NuxtLink :to="$localePath('restaurant', i18n.locale.value)">Reštaurácia</NuxtLink>
 				<NuxtLink :to="$localePath('terrace', i18n.locale.value)">Terasa a požičovňa</NuxtLink>
 				<NuxtLink :to="$localePath('turzovia', i18n.locale.value)">TurzoVIA</NuxtLink>
