@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ['@nuxtjs/i18n', '@primevue/nuxt-module', '@nuxt/content'],
 	i18n: {
+		strategy: 'prefix',
 		defaultLocale: 'sk',
 		locales: [
 			{ code: 'sk', file: 'sk.json', flag: 'sk.png' },

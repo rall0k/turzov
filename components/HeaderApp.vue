@@ -3,7 +3,17 @@ const i18n = useI18n()
 
 const { data: home }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/home`).first())
 const { data: accommodation }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/accommodation`).first())
+const { data: restaurant }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/restaurant`).first())
+const { data: terrace }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/terrace`).first())
+const { data: turzovia }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/turzovia`).first())
+const { data: tips }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/tips`).first())
 
+const switchLocale = (locale) => {
+	const localePath = useLocalePath()
+	const route = useRoute()
+	let url = localePath(route.name.split("___")[0], locale)
+	window.location.href = url
+}
 </script>
 
 <template>
@@ -12,16 +22,21 @@ const { data: accommodation }  = await useAsyncData(() => queryCollection('conte
 		<section class="nav-locale">
 			<nav>
 				<NuxtLink :to="$localePath(accommodation.body.id, i18n.locale.value)">{{ accommodation.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath('restaurant', i18n.locale.value)">Reštaurácia</NuxtLink>
-				<NuxtLink :to="$localePath('terrace', i18n.locale.value)">Terasa a požičovňa</NuxtLink>
-				<NuxtLink :to="$localePath('turzovia', i18n.locale.value)">TurzoVIA</NuxtLink>
-				<NuxtLink :to="$localePath('tips', i18n.locale.value)">Tipy na výlet</NuxtLink>
+				<NuxtLink :to="$localePath(restaurant.body.id, i18n.locale.value)">{{ restaurant.body.title }}</NuxtLink>
+				<NuxtLink :to="$localePath(terrace.body.id, i18n.locale.value)">{{ terrace.body.title }}</NuxtLink>
+				<NuxtLink :to="$localePath(turzovia.body.id, i18n.locale.value)">{{ turzovia.body.title }}</NuxtLink>
+				<NuxtLink :to="$localePath(tips.body.id, i18n.locale.value)">{{ tips.body.title }}</NuxtLink>
 				<NuxtLink :to="$localePath('contact')">Kontakt</NuxtLink>
 			</nav>
+			|
 			<section class="locales">
-				<NuxtLink v-for="locale in i18n.locales.value" :to="$localePath('index', locale.code)">
-					<img :src="locale.flag" alt="">
-				</NuxtLink>
+				<span
+					v-for="locale in i18n.locales.value"
+					:key="locale.code"
+					@click="switchLocale(locale.code)"
+				>
+					{{ locale.code }}
+				</span>
 			</section>
 		</section>
 	</header>
@@ -29,6 +44,7 @@ const { data: accommodation }  = await useAsyncData(() => queryCollection('conte
 
 <style scoped>
 .header-app {
+	color: var(--color03);
 	background: var(--color01);
 	display: flex;
 	flex-direction: row;
@@ -46,6 +62,7 @@ const { data: accommodation }  = await useAsyncData(() => queryCollection('conte
 	.nav-locale {
 		display: flex;
 		gap: 1rem;
+		align-items: center;
 
 		nav {
 			display: flex;
@@ -63,10 +80,13 @@ const { data: accommodation }  = await useAsyncData(() => queryCollection('conte
 		.locales {
 			display: flex;
 			gap: .5rem;
+			text-transform: uppercase;
 
-			img { 
-				width: 2rem;
-				height: 1.2rem;
+			& > span {
+				font-size: 1rem;
+				&:hover {
+					cursor: pointer;
+				}
 			}
 		}
 	}
