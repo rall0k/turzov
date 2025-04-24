@@ -26,11 +26,12 @@ const switchLocale = (locale) => {
 				<NuxtLink :to="$localePath(terrace.body.id, i18n.locale.value)">{{ terrace.body.title }}</NuxtLink>
 				<NuxtLink :to="$localePath(turzovia.body.id, i18n.locale.value)">{{ turzovia.body.title }}</NuxtLink>
 				<NuxtLink :to="$localePath(tips.body.id, i18n.locale.value)">{{ tips.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath('contact')">Kontakt</NuxtLink>
+				<!-- <NuxtLink :to="$localePath('contact')">Kontakt</NuxtLink> -->
 			</nav>
 			|
 			<section class="locales">
 				<span
+					:class="{'active-locale': locale.code == i18n.locale.value}"
 					v-for="locale in i18n.locales.value"
 					:key="locale.code"
 					@click="switchLocale(locale.code)"
@@ -49,6 +50,7 @@ const switchLocale = (locale) => {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	padding: 1.8rem 1.5rem;
 
 	a {
@@ -56,24 +58,26 @@ const switchLocale = (locale) => {
 		color: var(--color03);
 	}
 
-	& > a {
-
-	}
+	& > a {}
 	.nav-locale {
+		font-size: 1.15rem;
 		display: flex;
 		gap: 1rem;
 		align-items: center;
 
 		nav {
 			display: flex;
-			gap: 1rem;
+			gap: .5rem;
 
 			a {
 				transition: 250ms;
+				padding: .85rem 1rem;
+				border-radius: 3rem;
 
-				&:hover {
+				&:hover, &.router-link-active {
 					cursor: pointer;
-					opacity: .5;
+					background: var(--color03);
+					color: var(--color01);
 				}
 			}
 		}
@@ -84,8 +88,10 @@ const switchLocale = (locale) => {
 
 			& > span {
 				font-size: 1rem;
-				&:hover {
+				
+				&:hover, &.active-locale {
 					cursor: pointer;
+					text-decoration: underline;
 				}
 			}
 		}
