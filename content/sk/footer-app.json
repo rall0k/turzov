@@ -7,5 +7,9 @@
 		"title": "Turzov",
 		"href": "https://www.facebook.com/profile.php?id=61552047947591"
 	},
-	"address": "Thurzovská 1822, Gelnica"
+	"address": "Penzión Turzov, Thurzovská 1822, Gelnica",
+	"map": {
+		"width": "50%",
+		"height": "400"
+	}
 }

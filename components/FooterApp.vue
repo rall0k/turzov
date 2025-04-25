@@ -7,7 +7,15 @@
 <template>
 	<footer class="footer-app">
 		<ClientOnly>
-			<iframe class="map" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=turzovska%201822%20Gelnica+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+			<iframe
+				:src="`https://maps.google.com/maps?q=${footerApp.body.address}&z=16&output=embed`"
+				:width="footerApp.body.map.width"
+				:height="footerApp.body.map.height"
+				style="border:0;"
+				allowfullscreen
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			/>
 		</ClientOnly>
 		<section class="contact">
 			<div class="title">{{ footerApp.body.title }}</div>
