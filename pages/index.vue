@@ -8,12 +8,13 @@
 	useSeoMeta({
 		title: home.value.body.title
 	})
+
 </script>
 
 <template>
-	<div>
-		{{ home.body.title }}
-	</div>
+	<main>
+		<HomeCarousel :carousel="home.body.carousel" />
+	</main>
 </template>
 
 <style scoped></style>

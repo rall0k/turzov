@@ -1,4 +1,27 @@
 {
 	"id": "index",
-	"title": "Domov"
+	"title": "Domov",
+	"carousel": {
+		"autoplayInterval": 0,
+		"slides": [
+			{
+				"photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/74827205.jpg?k=0522d79bf02f9e1eec25406e7382b4bcfab5d1bb8a3b015ee16a2f3fc528e4b8&o=&hp=1",
+				"title":"Ubytovanie",
+				"description": "commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+				"link": {
+					"text": "Ubytovanie",
+					"url": "accommodation"
+				}
+			},
+			{
+				"photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
+				"title":"Reštaurácia",
+				"description": "commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+				"link": {
+					"text": "Reštaurácia",
+					"url": "restaurant"
+				}
+			}
+		]
+	}
 }
