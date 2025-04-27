@@ -7,7 +7,8 @@
 <template>
 	<footer class="footer-app">
 		<ClientOnly>
-			<iframe
+			<iframe 
+				class="map"
 				:src="`https://maps.google.com/maps?q=${footerApp.body.address}&z=16&output=embed`"
 				:width="footerApp.body.map.width"
 				:height="footerApp.body.map.height"
@@ -56,6 +57,7 @@
 
 	.map {
 		width: 100%;
+		align-self: stretch;
 
 		@media(min-width: 800px) {
 			width: 50%;
