@@ -10,18 +10,85 @@
 				"description": "commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
 				"link": {
 					"text": "Ubytovanie",
-					"url": "accommodation"
+					"page": "accommodation"
 				}
 			},
 			{
 				"photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
 				"title":"Reštaurácia",
-				"description": "commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+				"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
 				"link": {
 					"text": "Reštaurácia",
-					"url": "restaurant"
+					"page": "restaurant"
 				}
 			}
 		]
-	}
+	},
+	"sections": [
+		{
+			"title": "Ubytovanie",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"link": {
+				"text": "Ubytovanie",
+				"page": "accommodation"
+			},
+			"photos": [
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1"
+			]
+		},
+		{
+			"title": "Reštaurácia",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"link": {
+				"text": "Reštaurácia",
+				"page": "restaurant"
+			},
+			"photos": [
+				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
+				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
+				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg"
+			]
+		},
+		{
+			"title": "Terasa a požičovňa",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"link": {
+				"text": "Terasa a požičovňa",
+				"page": "terrace"
+			},
+			"photos": [
+				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg",
+				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg",
+				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg"
+			]
+		},
+		{
+			"title": "Tipy na výlet",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"link": {
+				"text": "Tipy na výlet",
+				"page": "tips"
+			},
+			"photos": [
+				"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
+				"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
+				"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85"
+			]
+		},
+		{
+			"title": "Turzovia",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"link": {
+				"text": "Turzovia",
+				"page": "turzovia"
+			},
+			"photos": [
+				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg",
+				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg",
+				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg"
+			]
+		}
+	]
 }

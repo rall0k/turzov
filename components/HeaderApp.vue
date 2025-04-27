@@ -156,12 +156,12 @@ let showOverlayMenu = ref(false)
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: .25rem;
+			gap: .5rem;
 
 			a {
 				color: var(--color03);
 				text-decoration: none;
-				padding: .85rem 1.5rem;
+				padding: .25rem 1.5rem;
 				background: var(--color01);
 				border-radius: 5rem;
 				transition: 250ms;
@@ -206,7 +206,7 @@ let showOverlayMenu = ref(false)
 
 			a {
 				transition: 250ms;
-				padding: .85rem 1rem;
+				padding: .25rem 1rem;
 				border-radius: 5rem;
 
 				&:hover, &.router-link-active {

@@ -15,10 +15,29 @@
 }
 body {
 	font-size: 10px;
+	color: var(--color02);
+	line-height: 32px;
+}
+
+.btn {
+	color: var(--color03);
+	text-decoration: none;
+	background: var(--color01);
+	padding: .5rem 2rem;
+	border-radius: 10rem;
+	transition: 250ms;
+	font-size: 1.1rem;
+	align-self: start;
+
+	&:hover {
+		opacity: .9;
+	}
 }
 
 .p-carousel-content {
 	position: relative;
+	height: 50vh;
+	overflow: hidden;
 
 	&:hover {
 		.p-carousel-next-button, .p-carousel-prev-button {

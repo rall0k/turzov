@@ -14,7 +14,19 @@
 <template>
 	<main>
 		<HomeCarousel :carousel="home.body.carousel" />
+		<section class="home-sections">
+			<HomeSection v-for="section in home.body.sections" :section="section" :key="section"/>
+		</section>
 	</main>
 </template>
 
-<style scoped></style>
+<style scoped>
+	.home-sections {
+		.home-section {
+			background: var(--color03);
+			&:nth-child(odd) {
+				background: var(--color04);
+			}
+		}
+	}
+</style>
