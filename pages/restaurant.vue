@@ -49,7 +49,7 @@
 		</section>
 		<section class="menu">
 			<h2 class="title">{{ restaurant.body.menuTitle }}</h2>
-			<Carousel :value="restaurant.body.menu" :responsiveOptions="responsiveOptionsMenuCarousel" :showNavigators="false" :numVisible="2" :numScroll="1">
+			<Carousel :value="restaurant.body.menu" :responsiveOptions="responsiveOptionsMenuCarousel" :showNavigators="true" :numVisible="2" :numScroll="1">
 				<template #item="menu">
 					<section class="page">
 						<img :src="menu.data" />
@@ -106,11 +106,11 @@
 				
 				.row {
 					border-top: 1px solid var(--color02);
-					padding: .5rem 0;
+					padding: .5rem;
 					display: flex;
 					justify-content: space-between;
 					width: 50vw;
-					
+
 					&.current-day {
 						color: rgb(44, 226, 44);
 					}
