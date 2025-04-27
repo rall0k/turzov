@@ -7,7 +7,7 @@
 </script>
 
 <template>
-	<Carousel :value="carousel.slides" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
+	<Carousel :value="carousel.slides" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
 		<template #item="slide">
 			<section class="slide">
 				<img :src="slide.data.photo" alt="">

@@ -12,12 +12,12 @@
 </script>
 
 <template>
-	<main>
+	<section class="content">
 		<HomeCarousel :carousel="home.body.carousel" />
 		<section class="home-sections">
 			<HomeSection v-for="section in home.body.sections" :section="section" :key="section"/>
 		</section>
-	</main>
+	</section>
 </template>
 
 <style scoped>

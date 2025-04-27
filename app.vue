@@ -18,7 +18,28 @@ body {
 	color: var(--color02);
 	line-height: 32px;
 }
+.content {}
+h1.title, h2.title {
+	font-weight: 500;
+	color: var(--color01);
+	font-size: 3rem;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
 
+	&:after, &:before {
+		display: block;
+		content: "";
+		background: var(--color01);
+		width: 3.5rem;
+		height: .2rem;
+	}
+}
+h2.title {
+	font-size: 2rem;
+}
 .btn {
 	color: var(--color03);
 	text-decoration: none;
@@ -34,7 +55,7 @@ body {
 	}
 }
 
-.p-carousel-content {
+/* .p-carousel-content {
 	position: relative;
 	height: 50vh;
 	overflow: hidden;
@@ -63,5 +84,5 @@ body {
 }
 .p-carousel-next-button {
 	left: 3.5rem;
-}
+} */
 </style>
