@@ -50,9 +50,10 @@
 			flex-wrap: wrap;
 
 			img {
-				width: calc(100vh/3);
-				height: 10rem;
+				width: calc(100vw/4);
+				height: calc(100vw/4);
 				object-fit: cover;
+				flex-grow: 1;
 			}
 		}
 		.btn {

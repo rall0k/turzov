@@ -156,7 +156,7 @@ let showOverlayMenu = ref(false)
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: .5rem;
+			gap: .25rem;
 
 			a {
 				color: var(--color03);
