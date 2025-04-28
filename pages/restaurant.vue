@@ -23,9 +23,9 @@
 		},
 	])
 	const now = new Date()
-	let day = now.getDay()
-	if(day == 0) day = 6
-	else if(day == 6) day = 0 
+	let day = now.getDay() - 1
+	if (day < 0) day = 6
+	
 </script>
 
 <template>
