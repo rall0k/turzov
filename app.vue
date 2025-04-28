@@ -41,6 +41,7 @@ h2.title {
 	font-size: 2rem;
 }
 .btn {
+	display: inline-block;
 	color: var(--color03);
 	text-decoration: none;
 	background: var(--color01);

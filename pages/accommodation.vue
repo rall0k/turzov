@@ -17,9 +17,19 @@
 </script>
 
 <template>
-	<div>
-		{{ accommodation.body.title }}
-	</div>
+	<section class="content">
+		<RoomCard :room="room" v-for="room in accommodation.body.rooms" :key="room" class="room-card" />
+	</section>
 </template>
 
-<style scoped></style>
+<style scoped>
+	.content {
+		.room-card {
+			background: var(--color04);
+
+			&:nth-child(odd) {
+				background: var(--color03);
+			}
+		}
+	}
+</style>
