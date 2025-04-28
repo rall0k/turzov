@@ -1,7 +1,7 @@
 <script setup>
 	const i18n = useI18n()
 
-	const { data: footerApp }  = await useAsyncData("footerApp", () => queryCollection('content').path(`/${i18n.locale.value}/footer-app`).first())
+	const { data: footerApp }  = await useAsyncData("footerApp", () => queryCollection('content').path(`/${i18n.locale.value}/layout/footer-app`).first())
 </script>
 
 <template>

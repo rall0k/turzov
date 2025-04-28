@@ -1,12 +1,15 @@
 <script setup>
 const i18n = useI18n()
 
+const { data: headerApp }  = await useAsyncData("headerApp", () => queryCollection('content').path(`/${i18n.locale.value}/layout/header-app`).first())
+
 const { data: home }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/home`).first())
 const { data: accommodation }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/accommodation`).first())
 const { data: restaurant }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/restaurant`).first())
 const { data: terrace }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/terrace`).first())
 const { data: turzovia }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/turzovia`).first())
 const { data: tips }  = await useAsyncData(() => queryCollection('content').path(`/${i18n.locale.value}/pages/tips`).first())
+let pages = { home, accommodation, restaurant, terrace, turzovia, tips }
 
 const switchLocale = (locale) => {
 	const localePath = useLocalePath()
@@ -22,12 +25,7 @@ let showOverlayMenu = ref(false)
 		<NuxtLink :to="$localePath('index', i18n.locale.value)">Penzión Turzov</NuxtLink>
 		<section class="nav-locale">
 			<nav>
-				<NuxtLink :to="$localePath(accommodation.body.id, i18n.locale.value)">{{ accommodation.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath(restaurant.body.id, i18n.locale.value)">{{ restaurant.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath(terrace.body.id, i18n.locale.value)">{{ terrace.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath(turzovia.body.id, i18n.locale.value)">{{ turzovia.body.title }}</NuxtLink>
-				<NuxtLink :to="$localePath(tips.body.id, i18n.locale.value)">{{ tips.body.title }}</NuxtLink>
-				<!-- <NuxtLink :to="$localePath('contact')">Kontakt</NuxtLink> -->
+				<NuxtLink v-for="page in headerApp.body.pagesInMenu" :key="page" :to="$localePath(pages[page].value.body.id, i18n.locale.value)">{{ pages[page].value.body.title }}</NuxtLink>
 			</nav>
 			|
 			<section class="locales">
