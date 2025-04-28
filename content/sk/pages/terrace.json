@@ -1,4 +1,65 @@
 {
 	"id": "terrace",
-	"title": "Terasa a požičovňa"
+	"title": "Terasa a požičovňa",
+	"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+	"photos": [
+		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
+		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
+		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85"
+	],
+	"openingHoursTitle": "Otváracie hodiny",
+	"openingHoursInfo": "Terasa a bufet pri hornom jazere je otvorená počas letných mesiacov (jún - september).",
+	"openingHours": [
+		{
+			"day": "Pondelok",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Utorok",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Streda",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Štvrtok",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Piatok",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Sobota",
+			"fromTo": "14:00 - 22:00"
+		},
+		{
+			"day": "Nedeľa",
+			"fromTo": "14:00 - 22:00"
+		}
+	],
+	"priceListTitle": "Cenník",
+	"priceList": [
+		{
+			"name": "Paddleboard",
+			"price": "4€/hod"
+		},
+		{
+			"name": "Lehátko",
+			"price": "2€/deň"
+		},
+		{
+			"name": "Badminton raketa",
+			"price": "1€/hod"
+		},
+		{
+			"name": "Badminton sieťka",
+			"price": "1€/hod"
+		},
+		{
+			"name": "Cornhole",
+			"price": "2€/hod"
+		}
+	]
 }

@@ -21,6 +21,7 @@
 	--color02: #575757;
 	--color03: #FFFFFF;
 	--color04: #F8F8F8;
+	--color05: #cbd5e1;
 }
 
 #app {

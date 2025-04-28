@@ -43,7 +43,7 @@
 						<span class="pi pi-arrow-right" v-if="index == day"></span>
 						{{ openingHour.day }}
 					</span>
-					<span class="time">{{ openingHour.from }} - {{ openingHour.to }}</span>
+					<span class="time">{{ openingHour.fromTo }}</span>
 				</section>
 			</section>
 		</section>
@@ -105,8 +105,8 @@
 				flex-direction: column;
 				
 				.row {
-					border-top: 1px solid var(--color02);
-					padding: .5rem;
+					border-top: 1px solid var(--color05);
+					padding: .75rem;
 					display: flex;
 					justify-content: space-between;
 					width: 50vw;
@@ -125,7 +125,7 @@
 					.time {}
 
 					&:last-child {
-						border-bottom: 1px solid var(--color02);
+						border-bottom: 1px solid var(--color05);
 					}
 				}
 			}

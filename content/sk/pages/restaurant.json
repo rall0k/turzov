@@ -11,38 +11,31 @@
 	"openingHours": [
 		{
 			"day": "Pondelok",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Utorok",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Streda",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Štvrtok",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Piatok",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Sobota",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		},
 		{
 			"day": "Nedeľa",
-			"from": "14:00",
-			"to": "22:00"
+			"fromTo": "14:00 - 22:00"
 		}
 	],
 	"menuTitle": "Naša ponuka",
