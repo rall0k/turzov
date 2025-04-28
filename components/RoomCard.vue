@@ -31,7 +31,7 @@
 						</ButtonGroup>
 						<div class="price">{{ room.price[priceS] }}€</div>
 					</section>
-					<a :href="room.bookingLink.url" class="btn">{{ room.bookingLink.text }}</a>
+					<a :href="room.bookingLink.url" class="btn" target="_blank">{{ room.bookingLink.text }}</a>
 				</section>
 			</section>
 		</section>

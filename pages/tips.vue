@@ -42,7 +42,7 @@
 		}
 		.list {
 			columns: 1;
-			gap: 1rem;
+			gap: 2rem;
 
 			@media(min-width: 1000px) {
 				columns: 2;
