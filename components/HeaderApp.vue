@@ -63,11 +63,7 @@ let showOverlayMenu = ref(false)
 			</header>
 			<nav>
 				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(home.body.id, i18n.locale.value)">{{ home.body.title }}</NuxtLink>
-				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(accommodation.body.id, i18n.locale.value)">{{ accommodation.body.title }}</NuxtLink>
-				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(restaurant.body.id, i18n.locale.value)">{{ restaurant.body.title }}</NuxtLink>
-				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(terrace.body.id, i18n.locale.value)">{{ terrace.body.title }}</NuxtLink>
-				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(turzovia.body.id, i18n.locale.value)">{{ turzovia.body.title }}</NuxtLink>
-				<NuxtLink @click="showOverlayMenu = false" :to="$localePath(tips.body.id, i18n.locale.value)">{{ tips.body.title }}</NuxtLink>
+				<NuxtLink v-for="page in headerApp.body.pagesInMenu" :key="page" @click="showOverlayMenu = false" :to="$localePath(pages[page].value.body.id, i18n.locale.value)">{{ pages[page].value.body.title }}</NuxtLink>
 			</nav>
 		</section>
 	</header>

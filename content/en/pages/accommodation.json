@@ -1,4 +1,57 @@
 {
 	"id": "accommodation",
-	"title": "Accommodation"
+	"title": "Ubytovanie",
+	"rooms": [
+		{
+			"name": "Deluxe",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"price": {
+				"onePerson": "55",
+				"twoPersons": "45"
+			},
+			"bookingLink": {
+				"text": "Booking",
+				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
+			},
+			"photos": [
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
+				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
+				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+			]
+		},
+		{
+			"name": "Mega Deluxe",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"price": {
+				"onePerson": "45",
+				"twoPersons": "40"
+			},
+			"bookingLink": {
+				"text": "Booking",
+				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
+			},
+			"photos": [
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
+				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
+				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+			]
+		},
+		{
+			"name": "Super Deluxe",
+			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"price": {
+				"onePerson": "65",
+				"twoPersons": "45"
+			},
+			"bookingLink": {
+				"text": "Booking",
+				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
+			},
+			"photos": [
+				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
+				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
+				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+			]
+		}
+	]
 }
