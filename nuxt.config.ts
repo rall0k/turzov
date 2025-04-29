@@ -2,6 +2,11 @@
 import Material from '@primeuix/themes/material'
 
 export default defineNuxtConfig({
+	ssr: true,
+	target: 'static',
+	app: {
+		baseURL: '/turzov/', // použij svoj názov repozitára
+	},
 	compatibilityDate: '2024-11-01',
 	devtools: { enabled: true },
 	modules: ['@nuxtjs/i18n', '@primevue/nuxt-module', '@nuxt/content'],
