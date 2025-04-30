@@ -40,13 +40,13 @@
 	],
 	"menuTitle": "Naša ponuka",
 	"menu": [
-		"/restaurant/menu/menu_1.jpg",
-		"/restaurant/menu/menu_2.jpg",
-		"/restaurant/menu/menu_3.jpg",
-		"/restaurant/menu/menu_4.jpg",
-		"/restaurant/menu/menu_5.jpg",
-		"/restaurant/menu/menu_6.jpg",
-		"/restaurant/menu/menu_7.jpg",
-		"/restaurant/menu/menu_8.jpg"
+		"/restaurant/menu/Menu_1.jpg",
+		"/restaurant/menu/Menu_2.jpg",
+		"/restaurant/menu/Menu_3.jpg",
+		"/restaurant/menu/Menu_4.jpg",
+		"/restaurant/menu/Menu_5.jpg",
+		"/restaurant/menu/Menu_6.jpg",
+		"/restaurant/menu/Menu_7.jpg",
+		"/restaurant/menu/Menu_8.jpg"
 	]
 }
