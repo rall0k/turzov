@@ -52,7 +52,8 @@
 			<Carousel :value="restaurant.body.menu" :responsiveOptions="responsiveOptionsMenuCarousel" :showNavigators="true" :numVisible="2" :numScroll="1">
 				<template #item="menu">
 					<section class="page">
-						<img :src="menu.data" />
+						<!-- <img :src="menu.data" /> -->
+						<img :src="`${useRuntimeConfig().app.baseURL}${menu.data.replace(/^\/+/, '')}`" />
 					</section>
 				</template>
 			</Carousel>

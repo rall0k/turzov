@@ -5,7 +5,8 @@ export default defineNuxtConfig({
 	ssr: true,
 	target: 'static',
 	app: {
-		baseURL: '/turzov/' // DÔLEŽITÉ
+		// baseURL: '/turzov/' // DÔLEŽITÉ
+		baseURL: process.env.NODE_ENV === 'production' ? '/turzov/' : '/'
 	},
 	compatibilityDate: '2024-11-01',
 	devtools: { enabled: true },
