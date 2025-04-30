@@ -8,7 +8,7 @@
 
 <template>
 	<section class="home-section">
-		<div class="title">{{ section.title }}</div>
+		<h1 class="title">{{ section.title }}</h1>
 		<div class="description">{{ section.description }}</div>
 		<section class="photos">
 			<img v-for="photo in section.photos" :src="photo" alt="">
@@ -24,22 +24,6 @@
 		flex-direction: column;
 		padding: 4rem;
 
-		.title {
-			color: var(--color01);
-			font-size: 3rem;
-			justify-content: center;
-			display: flex;
-			align-items: center;
-			gap: 1rem;
-
-			&:after, &:before {
-				display: block;
-				content: "";
-				background: var(--color01);
-				width: 3.5rem;
-				height: .2rem;
-			}
-		}
 		.description {
 			text-align: justify;
 		}

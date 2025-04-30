@@ -28,6 +28,7 @@ h1.title, h2.title {
 	align-items: center;
 	gap: 1rem;
 	text-align: center;
+	line-height: 2.5rem;
 
 	&:after, &:before {
 		display: block;
