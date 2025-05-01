@@ -72,6 +72,20 @@
 				flex-grow: 1;
 			}
 		}
+		.price-list-container {
+			.price-list {
+				width: 100%;
+				@media(min-width: 800px) {
+					width: 80%;
+				}
+				@media(min-width: 1100px) {
+					width: 70%;
+				}
+				@media(min-width: 1200px) {
+					width: 50%;
+				}
+			}
+		}
 		.opening-hours-container {
 			display: flex;
 			flex-direction: column;
@@ -81,13 +95,22 @@
 			.opening-hours {
 				display: flex;
 				flex-direction: column;
+				width: 100%;
+				@media(min-width: 800px) {
+					width: 80%;
+				}
+				@media(min-width: 1100px) {
+					width: 70%;
+				}
+				@media(min-width: 1200px) {
+					width: 50%;
+				}
 				
 				.row {
 					border-top: 1px solid var(--color05);
 					padding: .75rem;
 					display: flex;
 					justify-content: space-between;
-					width: 50vw;
 
 					&.current-day {
 						color: rgb(44, 226, 44);
