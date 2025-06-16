@@ -10,6 +10,7 @@
 	<Carousel :value="carousel.slides" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
 		<template #item="slide">
 			<section class="slide">
+				<!-- {{ `${useRuntimeConfig().app.baseURL}${slide.data.photo}` }} -->
 				<img :src="`${useRuntimeConfig().app.baseURL}${slide.data.photo}`" alt="">
 				<footer class="footer-slide">
 					<section class="text">

@@ -3,54 +3,68 @@
 	"title": "Ubytovanie",
 	"rooms": [
 		{
-			"name": "Deluxe",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"name": "Izba Economy #1",
+			"description": "Izba so zariadením na osobnú hygienu (WC, umývadlo, sprchový kút) a balkónom. Izba je vybavená posteľami, nočnými stolíkmi s nočnými lampami, skriňou s ramienkami, komodou a televízorom. Súčasťou izby je tiež chladnička, varná kanvica, šálky, tanieriky, príbor a nádoba na odpadky. V prípade potreby je izbu možné dovybaviť prístelkou alebo detskou postieľkou v cene 15€/noc.",
 			"price": {
-				"onePerson": "55",
-				"twoPersons": "45"
+				"onePerson": "35",
+				"twoPersons": "55"
 			},
 			"bookingLink": {
 				"text": "Booking",
 				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
 			},
 			"photos": [
-				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
-				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
-				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+				"accommodation/Izba_1_1-min.jpg",
+				"accommodation/Izba_1_3-min.jpg",
+				"accommodation/Izba_1_5-min.jpg",
+				"accommodation/kupelna_1_1-min.jpg",
+				"accommodation/kupelna_1_2-min.jpg",
+				"accommodation/kupelna_1_3-min.jpg"
 			]
 		},
 		{
-			"name": "Mega Deluxe",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"name": "Izba Economy #2",
+			"description": "Izba so zariadením na osobnú hygienu (WC, umývadlo, sprchový kút) a balkónom. Izba je vybavená manželskou posteľou, nočnými stolíkmi s nočnými lampami, skriňou s ramienkami, komodou a televízorom. Súčasťou izby je tiež chladnička, varná kanvica, šálky, tanieriky, príbor a nádoba na odpadky. V prípade potreby je izbu možné dovybaviť prístelkou alebo detskou postieľkou v cene 15€/noc.",
 			"price": {
-				"onePerson": "45",
-				"twoPersons": "40"
+				"onePerson": "35",
+				"twoPersons": "55"
 			},
 			"bookingLink": {
 				"text": "Booking",
 				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
 			},
 			"photos": [
-				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
-				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
-				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+				"accommodation/Izba_2_1-min.jpg",
+				"accommodation/Izba_2_2-min.jpg",
+				"accommodation/Izba_2_4-min.jpg",
+				"accommodation/Izba_2_5-min.jpg",
+				"accommodation/kupelna_2_1-min.jpg",
+				"accommodation/kupelna_2_2-min.jpg",
+				"accommodation/kupelna_2_4-min.jpg",
+				"accommodation/kupelna_2_5-min.jpg"
 			]
 		},
 		{
-			"name": "Super Deluxe",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"name": "Izba DeLuxe",
+			"description": "Izba s predsieňou a zariadením na osobnú hygienu (WC, umývadlo, sprchový kút) a balkónom. Izba je priestrannejšia, vybavená manželskou posteľou, rozkladacím gaučom, nočnými stolíkmi s nočnými lampami, konferenčným stolíkom, stolom so stoličkami, skriňou s ramienkami, komodou a televízorom. Súčasťou izby je aj stôl so stoličkami, chladnička, varná kanvica, šálky, taniere, príbory a nádoba na odpadky. V prípade potreby je izbu možné dovybaviť prístelkou alebo detskou postieľkou v cene 15€/noc.",
 			"price": {
-				"onePerson": "65",
-				"twoPersons": "45"
+				"onePerson": "60",
+				"twoPersons": "70"
 			},
 			"bookingLink": {
 				"text": "Booking",
 				"url": "https://www.booking.com/hotel/sk/penzion-turzov-gelnica.sk.html?label=gen173nr-1BCAEoggI46AdIM1gEaM0BiAEBmAEiuAEXyAEM2AEB6AEBiAIBqAIDuAKX_L7ABsACAdICJDAwNmE4ODA2LWY4OGEtNDFmMy1hYTQyLWM1YTlkNGQ4Y2YwMdgCBeACAQ&sid=bd1edb9bf1a9487e235fd063450aec0a&aid=304142&ucfs=1&arphpl=1"
 			},
 			"photos": [
-				"https://rnb.scene7.com/is/image/roomandboard/HCC_bedroom_01_0425?size=2400,2400&scl=1",
-				"https://assets.wfcdn.com/im/00895195/resize-h500-w750%5Ecompr-r85/2028/202846131/default_name.jpg",
-				"https://assets.wfcdn.com/im/28561103/resize-h500-w750%5Ecompr-r85/1484/148455961/default_name.jpg"
+				"accommodation/Izba_3_1-min.jpg",
+				"accommodation/Izba_3_2-min.jpg",
+				"accommodation/Izba_3_3-min.jpg",
+				"accommodation/Izba_3_4-min.jpg",
+				"accommodation/Izba_3_6-min.jpg",
+				"accommodation/Izba_3_7-min.jpg",
+				"accommodation/kupelna_3_1-min.jpg",
+				"accommodation/kupelna_3_2-min.jpg",
+				"accommodation/kupelna_3_3-min.jpg"
 			]
 		}
 	]

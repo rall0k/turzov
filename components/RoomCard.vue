@@ -15,10 +15,10 @@
 		<section class="photos-and-details">
 			<Galleria :value="room.photos" :numVisible="5" class="room-gallery">
 				<template #item="photo">
-					<img :src="photo.item" alt="">
+					<img :src="`${useRuntimeConfig().app.baseURL}${photo.item}`" alt="">
 				</template>
 				<template #thumbnail="photo">
-					<img :src="photo.item" alt="" class="thumbnail">
+					<img :src="`${useRuntimeConfig().app.baseURL}${photo.item}`" alt="" class="thumbnail">
 				</template>
 			</Galleria>
 			<section class="details">
