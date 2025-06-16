@@ -6,7 +6,7 @@
 		"autoplayInterval": 0,
 		"slides": [
 			{
-				"photo": "/pages/home/carousel/accommodation.jpg",
+				"photo": "/home/carousel/accommodation.jpg",
 				"title":"Ubytovanie",
 				"description": "Penzión Turzov sa nachádza v rekreačnej lokalite Turzov, približne 2 km od centra mesta Gelnica a len na skok od areálu bývalých Turzovských kúpeľov. Penzión sa nachádza pri spodnom Turzovskom jazere, obklopený čarokrásnou prírodou, ktorá ponúka nespočetné možnosti pre relax, rekreačnú turistiku ale aj pre náročnejších turistov. Návštevníkom je penzión k dispozícii celoročne.",
 				"link": {
@@ -15,7 +15,7 @@
 				}
 			},
 			{
-				"photo": "/pages/home/carousel/restaurant.jpg",
+				"photo": "/home/carousel/restaurant.jpg",
 				"title":"Reštaurácia",
 				"description": "Penzión Turzov disponuje reštauračnou časťou, kde sa návštevníci môžu občerstviť a vychutnať si výborné pivo, lahodnú kávu či vybrať si z ponuky hotových jedál. V prípade priaznivého počasia je tiež k dispozícii na sedenie aj terasa. V tesnej blízkosti penziónu sa nachádza niekoľko altánkov a ohnísk vhodných na opekanie.",
 				"link": {
@@ -24,7 +24,7 @@
 				}
 			},
 			{
-				"photo": "/pages/home/carousel/terrace.jpg",
+				"photo": "/home/carousel/terrace.jpg",
 				"title":"Terasa a požičovňa",
 				"description": "Počas letnej sezóny tiež prevádzkujeme pre návštevníkov pri hornom turzovskom jazere bufet s občerstvením (približne 10 min.od penziónu), kde v sezóne roku 2024 pribudla aj možnosť zapožičať si lehátka, paddleboardy a ďalšie športové vybavenie.",
 				"link": {
@@ -33,7 +33,7 @@
 				}
 			},
 			{
-				"photo": "/pages/home/carousel/tips.jpg",
+				"photo": "/home/carousel/tips.jpg",
 				"title":"Tipy na výlety",
 				"description": "Návštevníci si v rámci oddychu môžu vychutnať pohľad na nádhernú okolitú prírodu alebo navštíviť neďaleký Banský skanzen a Štôlňu Jozef. Okolie poskytuje nemálo možností na nenáročné aj dlhšie a náročnejšie vychádzky a cyklotúry. Okolité tajchy tiež vytvárajú vhodné podmienky pre nadšencov rybolovu. ",
 				"link": {
