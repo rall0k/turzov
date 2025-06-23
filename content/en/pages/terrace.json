@@ -1,64 +1,75 @@
 {
 	"id": "terrace",
 	"title": "Terasa a požičovňa",
-	"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+	"description": "Areál bývalých turzovských kúpeľov (cca 10min.od penziónu)  poskytuje návštevníkom možnosť vyžitia pri vode, kde podnik v letnej sezóne prevádzkuje bufet s občerstvením. Samozrejmosťou v ponuke sú chladené čapované nápoje, káva, pochutiny a nanuky. V letnej sezóne 2024  na tomto mieste pribudla aj požičovňa lehátok, paddleboardov a ďalšieho športového vybavenia.",
 	"photos": [
-		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
-		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85",
-		"https://images.photowall.com/products/73393/perfect-beach.jpg?h=699&q=85"
+		"terrace/bufet_pozicovna.jpg",
+		"terrace/bufet_pozicovna_2.jpg"
 	],
 	"openingHoursTitle": "Otváracie hodiny",
 	"openingHoursInfo": "Terasa a bufet pri hornom jazere je otvorená počas letných mesiacov (jún - september).",
 	"openingHours": [
 		{
 			"day": "Pondelok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Utorok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Streda",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Štvrtok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Piatok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Sobota",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		},
 		{
 			"day": "Nedeľa",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "11:00 - 17:00"
 		}
 	],
 	"priceListTitle": "Cenník",
 	"priceList": [
 		{
-			"name": "Paddleboard",
-			"price": "4€/hod"
-		},
-		{
-			"name": "Lehátko",
+			"name": "Lehátko plastové",
 			"price": "2€/deň"
 		},
 		{
-			"name": "Badminton raketa",
+			"name": "Lehátko hliníkové so strieškou",
+			"price": "3€/deň"
+		},
+		{
+			"name": "Stolík ",
+			"price": "1€/deň"
+		},
+		{
+			"name": "Set lehátok (2x lehátko + stolík)",
+			"price": "4€/deň"
+		},
+		{
+			"name": "Paddleboard s príslušenstvom - malý",
+			"price": "4€/hod"
+		},
+		{
+			"name": "Paddleboard s príslušenstvom - veľký",
+			"price": "5€/hod"
+		},
+		{
+			"name": "Záchranná vesta",
 			"price": "1€/hod"
 		},
 		{
-			"name": "Badminton sieťka",
-			"price": "1€/hod"
-		},
-		{
-			"name": "Cornhole",
+			"name": "Športové náčinie (frisby, set na bedminton)",
 			"price": "2€/hod"
 		}
 	]

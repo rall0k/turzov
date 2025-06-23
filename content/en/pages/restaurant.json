@@ -1,41 +1,41 @@
 {
 	"id": "restaurant",
 	"title": "Reštaurácia",
-	"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+	"description": "Penzión Turzov disponuje v prízemnej časti objektu reštauračnou časťou, kde sa návštevníci môžu občerstviť a vychutnať si výborné pivo, lahodnú kávu či vybrať si z ponuky hotových jedál. V prípade priaznivého počasia je tiež k dispozícii na sedenie aj terasa a zastrešený prístrešok v exteriéri. Okrem bežnej ponuky vie pre záujemcov náš personál zabezpečiť a pripraviť aj rodinné oslavy, či firemné posedenia.",
 	"photos": [
-		"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
-		"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
-		"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg"
+		"restaurant/restauracia_altanok.jpg",
+		"restaurant/restauracia_doska.png",
+		"restaurant/restauracia_salonik.png"
 	],
 	"openingHoursTitle": "Otváracie hodiny",
 	"openingHours": [
 		{
 			"day": "Pondelok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 20:00"
 		},
 		{
 			"day": "Utorok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 20:00"
 		},
 		{
 			"day": "Streda",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 20:00"
 		},
 		{
 			"day": "Štvrtok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 20:00"
 		},
 		{
 			"day": "Piatok",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 21:00"
 		},
 		{
 			"day": "Sobota",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 21:00"
 		},
 		{
 			"day": "Nedeľa",
-			"fromTo": "14:00 - 22:00"
+			"fromTo": "10:00 - 20:00"
 		}
 	],
 	"menuTitle": "Naša ponuka",
