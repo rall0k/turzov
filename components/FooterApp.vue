@@ -69,9 +69,10 @@
 		flex-direction: column;
 		gap: 1rem;
 		padding-bottom: 10vw;
-
+		
 		@media(min-width: 800px) {
 			padding: 0;
+			padding-right: 2rem;
 		}
 
 		.title {

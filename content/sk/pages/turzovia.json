@@ -3,11 +3,14 @@
 	"title": "TurzoVia",
 	"description": "Nápad vybudovať v lokalite lanovú dráhu sa zrodil už na jeseň 2023. Z toho dôvodu sa Sociálny podnik Mesta Gelnica ako prevádzkovateľ Penziónu Turzov v roku 2024 zapojil do výzvy vyhlásenej Košickým samosprávny krajom z programu Terra Incognita na podporu cestovného ruchu. Projekt bol v rámci vyhlásenej výzvy úspešný, pričom Košický samosprávny kraj poskytol na jeho realizáciu dotáciu vo výške 45 000€, zvyšné finančné prostriedky vo výške asi 10 000€ boli poskytnuté z rozpočtu Mesta Gelnica. Zámerom projektu bolo vybudovanie nového športovo- rekreačného areálu a tým zvýšenie atraktívnosti ubytovania v penzióne Turzov a celkové zatraktívnenie prímestskej lokality Turzov. Areál lanového parku pozostáva z troch častí: 1. trenažér, 2. vysoké prekážky s rôznymi stupňami náročnosti+ zip-line, 3. nízke prekážky. Keďže bezpečnosť je pre nás prvoradá, každý záujemca bude pri prekonávaní vysokých prekážok istnený pomocou špičkovej horolezeckej výstroje- unikátnym systémom Clic-IT, ktorý vylúči možnosť pádu. Lanový park TurzoVIA bude v prevádzke spravidla od apríla do októbra, v závislosti od počasia, počas letných prázdnin denne, mimo hlavnej sezóny na objednávku.",
 	"photos": [
-		"terrace/bufet_pozicovna.jpg",
-		"terrace/bufet_pozicovna_2.jpg"
+		"turzovia/TurzoVIA1.jpg",
+		"turzovia/TurzoVIA2.jpg",
+		"turzovia/TurzoVIA3.jpg",
+		"turzovia/TurzoVIA4.jpg",
+		"turzovia/TURZOVIA_nizkeprekazky.jpg"
 	],
 	"openingHoursTitle": "Otváracie hodiny",
-	"openingHoursInfo": "TurzoVia je otvorená počas priaznivého počasia celý rok.",
+	"openingHoursInfo": "TurzoVia je otvorená v mesiacoch apríl až september v závislosti od počasia. V prípade záujmu o rezerváciu nás prosím kontaktujte vopred.",
 	"openingHours": [
 		{
 			"day": "Pondelok",
@@ -42,11 +45,33 @@
 	"priceList": [
 		{
 			"name": "Jednorázový vstup",
-			"price": "10€"
+			"price": "7€"
+		},
+		{
+			"name": "Opakovaný vstup (2 vstupy po sebe)",
+			"price": "12€"
 		},
 		{
 			"name": "Permanentka (5 vstupov)",
-			"price": "20€"
+			"price": "30€"
+		},
+		{
+			"name": "Permanentka (10 vstupov)",
+			"price": "50€"
 		}
-	]
+	],
+	"rules": {
+		"url": "turzovia/rules.pdf",
+		"title": "Prevádzkový poriadok",
+		"label": "Stiahnúť"
+	},
+	"info": {
+		"ksk": "turzovia/info/ksk.png",
+		"text": [
+			"Projekt bol spolufinancovaný",
+			"Košickým samosprávnym krajom",
+			"z programu Terra incognita"
+		],
+		"krt": "turzovia/info/krt.png"
+	}
 }

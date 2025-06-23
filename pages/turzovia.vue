@@ -25,7 +25,7 @@
 		<h1 class="title">{{ turzovia.body.title }}</h1>
 		<div class="description">{{ turzovia.body.description }}</div>
 		<section class="photos">
-			<img :src="photo" alt="" v-for="photo in turzovia.body.photos" :key="photo">
+			<img :src="`${useRuntimeConfig().app.baseURL}${photo}`" alt="" v-for="photo in turzovia.body.photos" :key="photo">
 		</section>
 		<section class="opening-hours-container">
 			<h2 class="title">{{ turzovia.body.openingHoursTitle }}</h2>
@@ -46,6 +46,19 @@
 				<Column field="name" header=""></Column>
 				<Column field="price" header="" class="price"></Column>
 			</DataTable>
+		</section>
+		<section class="rules">
+			<h2 class="title">{{ turzovia.body.rules.title }}</h2>
+			<a class="btn" :href="`${useRuntimeConfig().app.baseURL}${turzovia.body.rules.url}`">{{ turzovia.body.rules.label }}</a>
+		</section>
+		<section class="info">
+			<img :src="`${useRuntimeConfig().app.baseURL}${turzovia.body.info.ksk}`" alt="">
+			<div class="text">
+				<span v-for="text in turzovia.body.info.text" :key="text">
+					{{ text }}
+				</span>
+			</div>
+			<img :src="`${useRuntimeConfig().app.baseURL}${turzovia.body.info.krt}`" alt="">
 		</section>
 	</section>
 </template>
@@ -84,6 +97,49 @@
 				@media(min-width: 1200px) {
 					width: 50%;
 				}
+			}
+		}
+		.rules {
+			display: none;
+			flex-direction: column;
+			gap: 2rem;
+
+			.btn {
+				align-self: center;
+			}
+		}
+		.info {
+			margin-top: 2rem;
+			display: grid;
+			grid-template-columns: repeat(1, auto);
+			justify-content: center;
+			justify-items: center;
+			align-items: center;
+			gap: 1rem;
+
+			@media(min-width: 970px) {
+				grid-template-columns: repeat(3, auto);
+			}
+
+			img {
+				width: 15rem;
+			}
+			.text {
+				--colorInfo: dodgerblue;
+				color: var(--colorInfo);
+				border: none;
+				border-top: 2px dotted var(--colorInfo);
+				border-bottom: 2px dotted var(--colorInfo);
+				padding: 1rem 0;
+				
+				@media(min-width: 970px) {
+					padding: 0 1rem;
+					border: none;
+					border-left: 2px dotted var(--colorInfo);
+					border-right: 2px dotted var(--colorInfo);
+				}
+				display: flex;
+				flex-direction: column;
 			}
 		}
 		.opening-hours-container {
