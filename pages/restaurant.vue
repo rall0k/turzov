@@ -34,7 +34,7 @@
 		<h1 class="title">{{ restaurant.body.title }}</h1>
 		<div class="description">{{ restaurant.body.description }}</div>
 		<section class="photos">
-			<img :src="photo" alt="" v-for="photo in restaurant.body.photos" :key="photo">
+			<img :src="`${useRuntimeConfig().app.baseURL}${photo}`" alt="" v-for="photo in restaurant.body.photos" :key="photo">
 		</section>
 		<section class="opening-hours-container">
 			<h2 class="title">{{ restaurant.body.openingHoursTitle }}</h2>

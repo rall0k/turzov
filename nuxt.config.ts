@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         }
     },
 	i18n: {
-		strategy: 'prefix',
+		strategy: 'prefix_except_default',
 		defaultLocale: 'sk',
 		locales: [
 			{ code: 'sk', file: 'sk.json', flag: 'sk.png' },

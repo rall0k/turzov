@@ -1,23 +1,22 @@
 <script setup>
 	const i18n = useI18n()
 
-	defineProps({
+	const props = defineProps({
 		carousel:Object
 	})
 </script>
 
 <template>
-	<Carousel :value="carousel.slides" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
+	<Carousel :value="carousel.slides.filter(slide => slide.active)" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
 		<template #item="slide">
 			<section class="slide">
-				<!-- {{ `${useRuntimeConfig().app.baseURL}${slide.data.photo}` }} -->
 				<img :src="`${useRuntimeConfig().app.baseURL}${slide.data.photo}`" alt="">
 				<footer class="footer-slide">
 					<section class="text">
 						<div class="title">{{ slide.data.title }}</div>
 						<div class="description">{{ slide.data.description }}</div>
 					</section>
-					<NuxtLink :to="$localePath(slide.data.link.page, i18n.locale.value)" class="btn link">{{ slide.data.link.text }}</NuxtLink>
+					<NuxtLink v-if="slide.data.link && slide.data.link.page" :to="$localePath(slide.data.link.page, i18n.locale.value)" class="btn link">{{ slide.data.link.text }}</NuxtLink>
 				</footer>
 			</section>
 		</template>
@@ -34,6 +33,7 @@
 			object-fit: cover;
 		}
 		.footer-slide {
+			width: 100%;
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;

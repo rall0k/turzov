@@ -6,6 +6,13 @@
 		"autoplayInterval": 0,
 		"slides": [
 			{
+				"active": true,
+				"photo": "home/carousel/info.jpeg",
+				"title":"Oznam",
+				"description": "Penzión Turzov bude dnes z prevádzkových dôvodov zatvorený."
+			},
+			{
+				"active": true,
 				"photo": "home/carousel/accommodation.jpg",
 				"title":"Ubytovanie",
 				"description": "Penzión Turzov sa nachádza v rekreačnej lokalite Turzov, približne 2 km od centra mesta Gelnica a len na skok od areálu bývalých Turzovských kúpeľov. Penzión sa nachádza pri spodnom Turzovskom jazere, obklopený čarokrásnou prírodou, ktorá ponúka nespočetné možnosti pre relax, rekreačnú turistiku ale aj pre náročnejších turistov. Návštevníkom je penzión k dispozícii celoročne.",
@@ -15,6 +22,7 @@
 				}
 			},
 			{
+				"active": true,
 				"photo": "home/carousel/restaurant.jpg",
 				"title":"Reštaurácia",
 				"description": "Penzión Turzov disponuje reštauračnou časťou, kde sa návštevníci môžu občerstviť a vychutnať si výborné pivo, lahodnú kávu či vybrať si z ponuky hotových jedál. V prípade priaznivého počasia je tiež k dispozícii na sedenie aj terasa. V tesnej blízkosti penziónu sa nachádza niekoľko altánkov a ohnísk vhodných na opekanie.",
@@ -24,6 +32,7 @@
 				}
 			},
 			{
+				"active": true,
 				"photo": "home/carousel/terrace.jpg",
 				"title":"Terasa a požičovňa",
 				"description": "Počas letnej sezóny tiež prevádzkujeme pre návštevníkov pri hornom turzovskom jazere bufet s občerstvením (približne 10 min.od penziónu), kde v sezóne roku 2024 pribudla aj možnosť zapožičať si lehátka, paddleboardy a ďalšie športové vybavenie.",
@@ -33,6 +42,7 @@
 				}
 			},
 			{
+				"active": true,
 				"photo": "home/carousel/tips.jpg",
 				"title":"Tipy na výlety",
 				"description": "Návštevníci si v rámci oddychu môžu vychutnať pohľad na nádhernú okolitú prírodu alebo navštíviť neďaleký Banský skanzen a Štôlňu Jozef. Okolie poskytuje nemálo možností na nenáročné aj dlhšie a náročnejšie vychádzky a cyklotúry. Okolité tajchy tiež vytvárajú vhodné podmienky pre nadšencov rybolovu. ",
@@ -42,6 +52,7 @@
 				}
 			},
 			{
+				"active": true,
 				"photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
 				"title":"TurzoVia",
 				"description": "V lete 2025 pribudne v bezprostrednej blízkosti penziónu unikátna lanová dráha TurzoVia. Lanový park s celkovou dĺžkou viac ako 110m umiestnený na živých stromoch poskytne nezabudnuteľné adrenalínové zážitky pre malých aj veľkých.",

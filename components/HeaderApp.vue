@@ -27,7 +27,7 @@ let showOverlayMenu = ref(false)
 			<nav>
 				<NuxtLink v-for="page in headerApp.body.pagesInMenu" :key="page" :to="$localePath(pages[page].value.body.id, i18n.locale.value)">{{ pages[page].value.body.title }}</NuxtLink>
 			</nav>
-			|
+			<!-- |
 			<section class="locales">
 				<span
 					:class="{'active-locale': locale.code == i18n.locale.value}"
@@ -37,7 +37,7 @@ let showOverlayMenu = ref(false)
 				>
 					{{ locale.code }}
 				</span>
-			</section>
+			</section> -->
 		</section>
 	</header>
 
