@@ -2,12 +2,12 @@
 	"id": "footerApp",
 	"title": "Kontakt",
 	"phone": "+421 919 491 157, +421 948 522 335",
-	"email": "info@spmgl.sk",
+	"email": "info.turzov@gmail.com",
 	"facebook": {
 		"title": "Turzov",
 		"href": "https://www.facebook.com/profile.php?id=61552047947591"
 	},
-	"address": "Penzión Turzov, Thurzovská 1822, Gelnica",
+	"address": "Penzión Turzov, Turzovská 1822, Gelnica",
 	"map": {
 		"width": "50%",
 		"height": "400"
