@@ -6,7 +6,7 @@
 		"autoplayInterval": 0,
 		"slides": [
 			{
-				"active": true,
+				"active": false,
 				"photo": "home/carousel/info.jpg",
 				"title":"Oznam",
 				"description": "Penzión Turzov bude dnes z prevádzkových dôvodov zatvorený."
@@ -67,57 +67,56 @@
 		{
 			"active": true,
 			"title": "Ubytovanie",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"description": "Penzión Turzov sa nachádza v rekreačnej lokalite Turzov, približne 2 km od centra mesta Gelnica a len na skok od areálu bývalých Turzovských kúpeľov. Penzión ponúka ubytovanie v 2 izbách typu Economy a DeLuxe apartmáne. Celková ubytovacia kapacita penziónu (vrátane prísteliek) je 10 lôžok.n Návštevníkom je penzión k dispozícii celoročne.",
 			"link": {
 				"text": "Ubytovanie",
 				"page": "accommodation"
 			},
 			"photos": [
 				"accommodation/Izba_1_3-min.jpg",
-				"accommodation/Izba_3_3-min.jpg",
-				"accommodation/Izba_2_4-min.jpg"
+				"accommodation/Izba_2_1-min.jpg",
+				"accommodation/Izba_3_3-min.jpg"
 			]
 		},
 		{
 			"active": true,
 			"title": "Reštaurácia",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"description": "V prízemnej časti penziónu sa nachádza bar s reštauráciou, kde sa návštevníci môžu občerstviť a vychutnať si výborné pivo, lahodnú kávu či vybrať si z ponuky hotových jedál. V prípade priaznivého počasia je tiež k dispozícii na sedenie aj terasa. V priestoroch reštaurácie vieme zabezpečiť a pripraviť aj rodinné oslavy, či firemné posedenia.",
 			"link": {
 				"text": "Reštaurácia",
 				"page": "restaurant"
 			},
 			"photos": [
-				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
-				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg",
-				"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/56/71/59/atmosphere.jpg"
+				"restaurant/restauracia_altanok.jpg",
+				"restaurant/restauracia_doska.png",
+				"restaurant/restauracia_salonik.png"
 			]
 		},
 		{
 			"active": true,
 			"title": "Terasa a požičovňa",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"description": "Počas letnej sezóny je návštevníkom k dispozícii aj bufet s občerstvením a požičovňa športového náradia, ktorá sa nachádza približne 10 minút od penziónu (pri hornom turzovskom tajchu, v areáli bývalých turzovských kúpeľov). Návštevníci tu vedia stráviť príjemný čas pri/vo vode s možnosťou zapožičania lehátok, paddleboardov či ďalšieho športového náčinia.",
 			"link": {
 				"text": "Terasa a požičovňa",
 				"page": "terrace"
 			},
 			"photos": [
-				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg",
-				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg",
-				"https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg"
+				"terrace/bufet_pozicovna.jpg",
+				"terrace/bufet_pozicovna_2.jpg"
 			]
 		},
 		{
 			"active": true,
 			"title": "TurzoVIA",
-			"description": "Commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+			"description": "V lete 2025 pribudne v bezprostrednej blízkosti penziónu unikátne lanové centrum TurzoVIA. Ide o projekt s celkovou dĺžkou viac ako 110m umiestnený na živých stromoch, ktorý malým aj veľmým návštevníkom  poskytne nezabudnuteľné adrenalínové zážitky. Súčasťou lanového centra je aj zip-line.",
 			"link": {
 				"text": "TurzoVIA",
 				"page": "turzovia"
 			},
 			"photos": [
-				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg",
-				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg",
-				"https://slovenskycestovatel.sk/images/items/1693/tarzania-kubinska-hola96102524.jpg"
+				"turzovia/TurzoVIA2.jpg",
+				"turzovia/TurzoVIA3.jpg",
+				"turzovia/TURZOVIA_nizkeprekazky.jpg"
 			]
 		},
 		{
