@@ -22,7 +22,9 @@ let showOverlayMenu = ref(false)
 
 <template>
 	<header class="header-app-pc">
-		<NuxtLink :to="$localePath('index', i18n.locale.value)">Penzión Turzov</NuxtLink>
+		<NuxtLink class="logo" :to="$localePath('index', i18n.locale.value)">
+			<img :src="`${useRuntimeConfig().app.baseURL}${headerApp.body.logo}`" alt="">
+		</NuxtLink>
 		<section class="nav-locale">
 			<nav>
 				<NuxtLink v-for="page in headerApp.body.pagesInMenu" :key="page" :to="$localePath(pages[page].value.body.id, i18n.locale.value)">{{ pages[page].value.body.title }}</NuxtLink>
@@ -43,13 +45,13 @@ let showOverlayMenu = ref(false)
 
 	<header class="header-app-mobil">
 		<section class="header-app-mobil-container">
-			<NuxtLink :to="$localePath(home.body.id, i18n.locale.value)">Penzion Turzov</NuxtLink>
+			<NuxtLink class="logo" :to="$localePath(home.body.id, i18n.locale.value)"><img :src="`${useRuntimeConfig().app.baseURL}${headerApp.body.logo}`" alt=""></NuxtLink>
 			<button class="pi pi-bars" @click="showOverlayMenu = true"></button>
 		</section>
 		
 		<section class="overlay" v-if="showOverlayMenu">
 			<header>
-				<section class="locales">
+				<!-- <section class="locales">
 					<span
 						:class="{'active-locale': locale.code == i18n.locale.value}"
 						v-for="locale in i18n.locales.value"
@@ -58,7 +60,7 @@ let showOverlayMenu = ref(false)
 					>
 						{{ locale.code }}
 					</span>
-				</section>
+				</section> -->
 				<button class="pi pi-times" @click="showOverlayMenu = false"></button>
 			</header>
 			<nav>
@@ -70,6 +72,14 @@ let showOverlayMenu = ref(false)
 </template>
 
 <style scoped>
+.logo {
+	display: flex;
+	align-items: center;
+
+	img {
+		width: 50px;
+	}
+}
 .header-app-mobil {
 	@media(min-width: 1000px) {
 		display: none;
@@ -117,7 +127,7 @@ let showOverlayMenu = ref(false)
 			right: 0;
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: end;
 			width: 100%;
 
 			.locales {

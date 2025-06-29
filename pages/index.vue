@@ -8,10 +8,19 @@
 	useSeoMeta({
 		title: home.value.body.title
 	})
-
+	let visible = ref(home.value.body.dialog.visible)
 </script>
 
 <template>
+	<Dialog class="info-dialog" v-model:visible="visible" modal>
+		<template #header>
+			<section class="header-container">
+				<span class="pi pi-info-circle"></span>
+				<span class="title">{{ home.body.dialog.title }}</span>
+			</section>
+		</template>
+		<p>{{ home.body.dialog.text }}</p>
+	</Dialog>
 	<section class="content">
 		<HomeCarousel :carousel="home.body.carousel" />
 		<section class="home-sections">
@@ -20,6 +29,30 @@
 	</section>
 </template>
 
+<style>
+	.p-dialog-header {
+		padding-bottom: 1rem;
+	}
+	.info-dialog {
+		font-family: "Ropa Sans", sans-serif;
+		font-size: 1.2rem;
+		color: var(--color02);
+		width: 50rem;
+		margin: 2rem;
+
+
+		.header-container {
+			display: flex;
+			gap: .5rem;
+			align-items: center;
+
+			.title {
+				font-size: 1.3rem;
+				font-weight: bold;
+			}
+		}
+	}
+</style>
 <style scoped>
 	.home-sections {
 		.home-section {
