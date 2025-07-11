@@ -4,10 +4,17 @@
 	const props = defineProps({
 		carousel:Object
 	})
+
+	let loading = ref(true)
+
+	onMounted(() => {
+		loading.value = false
+	})
 </script>
 
 <template>
-	<Carousel :value="carousel.slides.filter(slide => slide.active)" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
+	<Skeleton class="slide" height="90vh" v-if="loading"></Skeleton>
+	<Carousel v-if="!loading" :value="carousel.slides.filter(slide => slide.active)" :showNavigators="false" :numVisible="1" :numScroll="1" circular :autoplayInterval="carousel.autoplayInterval">
 		<template #item="slide">
 			<section class="slide">
 				<img :src="`${useRuntimeConfig().app.baseURL}${slide.data.photo}`" alt="">

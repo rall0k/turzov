@@ -66,7 +66,7 @@
 		{
 			"active": true,
 			"title": "Ubytovanie",
-			"description": "Penzión Turzov sa nachádza v rekreačnej lokalite Turzov, približne 2 km od centra mesta Gelnica a len na skok od areálu bývalých Turzovských kúpeľov. Penzión ponúka ubytovanie v 2 izbách typu Economy a DeLuxe apartmáne. Celková ubytovacia kapacita penziónu (vrátane prísteliek) je 10 lôžok.n Návštevníkom je penzión k dispozícii celoročne.",
+			"description": "Penzión Turzov sa nachádza v rekreačnej lokalite Turzov, približne 2 km od centra mesta Gelnica a len na skok od areálu bývalých Turzovských kúpeľov. Penzión ponúka ubytovanie v 2 izbách typu Economy a DeLuxe apartmáne. Celková ubytovacia kapacita penziónu (vrátane prísteliek) je 10 lôžok. Návštevníkom je penzión k dispozícii celoročne.",
 			"link": {
 				"text": "Ubytovanie",
 				"page": "accommodation"
@@ -94,7 +94,7 @@
 		{
 			"active": true,
 			"title": "Terasa a požičovňa",
-			"description": "Počas letnej sezóny je návštevníkom k dispozícii aj bufet s občerstvením a požičovňa športového náradia, ktorá sa nachádza približne 10 minút od penziónu (pri hornom turzovskom tajchu, v areáli bývalých turzovských kúpeľov). Návštevníci tu vedia stráviť príjemný čas pri/vo vode s možnosťou zapožičania lehátok, paddleboardov či ďalšieho športového náčinia.",
+			"description": "Počas letnej sezóny je návštevníkom k dispozícii aj bufet s občerstvením a požičovňa športových potrieb, ktorá sa nachádza približne 10 minút od penziónu (pri hornom turzovskom tajchu, v areáli bývalých Turzovských kúpeľov). Návštevníci tu vedia stráviť príjemný čas pri/vo vode s možnosťou zapožičania lehátok, paddleboardov či ďalšieho športových potrieb.",
 			"link": {
 				"text": "Terasa a požičovňa",
 				"page": "terrace"
@@ -107,7 +107,7 @@
 		{
 			"active": true,
 			"title": "TurzoVIA",
-			"description": "V lete 2025 pribudne v bezprostrednej blízkosti penziónu unikátne lanové centrum TurzoVIA. Ide o projekt s celkovou dĺžkou viac ako 110m umiestnený na živých stromoch, ktorý malým aj veľmým návštevníkom  poskytne nezabudnuteľné adrenalínové zážitky. Súčasťou lanového centra je aj zip-line.",
+			"description": "V lete 2025 pribudlo v bezprostrednej blízkosti penziónu lanové centrum TurzoVIA. Ide o projekt s celkovou dĺžkou viac ako 110m umiestnený na živých stromoch, ktorý malým aj veľkým návštevníkom  poskytne nezabudnuteľné adrenalínové zážitky. Súčasťou lanového centra je aj zip-line.",
 			"link": {
 				"text": "TurzoVIA",
 				"page": "turzovia"
