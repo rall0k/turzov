@@ -7,35 +7,35 @@
 		"terrace/bufet_pozicovna_2.jpg"
 	],
 	"openingHoursTitle": "Otváracie hodiny",
-	"openingHoursInfo": "Terasa a bufet pri hornom jazere je otvorená počas letných mesiacov (jún - september).",
+	"openingHoursInfo": "Terasa a bufet pri hornom jazere je otvorená počas letných mesiacov (júl - august). V prípade nepriaznivého počasia návštevníkov radi privítame na Penzióne Turzov.",
 	"openingHours": [
 		{
 			"day": "Pondelok",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Utorok",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Streda",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Štvrtok",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Piatok",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Sobota",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		},
 		{
 			"day": "Nedeľa",
-			"fromTo": "11:00 - 17:00"
+			"fromTo": "11:00 - 18:00"
 		}
 	],
 	"priceListTitle": "Cenník",
@@ -51,6 +51,10 @@
 		{
 			"name": "Stolík ",
 			"price": "1€/deň"
+		},
+		{
+			"name": "Set lehátok hliníkový (2x lehátko + stolík)",
+			"price": "6€/deň"
 		},
 		{
 			"name": "Set lehátok (2x lehátko + stolík)",

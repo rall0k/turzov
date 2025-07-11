@@ -109,7 +109,7 @@
 			}
 		}
 		.info {
-			margin-top: 2rem;
+			/* margin-top: 2rem; */
 			display: grid;
 			grid-template-columns: repeat(1, auto);
 			justify-content: center;
