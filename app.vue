@@ -21,9 +21,13 @@
 		ogDescription: Global.value.body.seo.description,
 		ogImage: `${useRuntimeConfig().public.siteUrl}${useRuntimeConfig().app.baseURL}${Global.value.body.ogImage}`,
 	})
+	const config = useRuntimeConfig()
 </script>
 
 <template>
+	<Head>
+		<base :href="config.app.baseURL" />
+	</Head>
 	<NuxtLayout>
 		<NuxtPage />	
 	</NuxtLayout>
