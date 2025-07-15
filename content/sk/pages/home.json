@@ -3,7 +3,7 @@
 	
 	"title": "Domov",
 	"dialog": {
-		"visible": true,
+		"visible": false,
 		"title": "Oznam",
 		"text": "Penzion Turzov bude dňa 30.06.2025 z prevádzkových dôvodov zatvorený. Ďakujeme za pochopenie. Vidíme sa 01.07.2025."
 	},
