@@ -21,7 +21,7 @@ export default defineNuxtConfig({
 	target: 'static',
 	app: {
 		// baseURL: '/turzov/' // DÔLEŽITÉ pre github pages
-		baseURL: '/' // DÔLEŽITÉ pre github pages s custom domain
+		baseURL: '/' // DÔLEŽITÉ pre github pages s custom domain a localhost
 		// baseURL: process.env.NODE_ENV === 'production' ? '/turzov/' : '/'
 	},
 	compatibilityDate: '2024-11-01',

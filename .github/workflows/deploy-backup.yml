@@ -23,9 +23,6 @@ jobs:
       - name: Generate static site
         run: npm run generate
 
-      - name: Add CNAME file
-        run: echo "turzov.sk" > ./dist/CNAME
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
