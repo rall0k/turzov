@@ -11,7 +11,8 @@
 		<h1 class="title">{{ section.title }}</h1>
 		<div class="description">{{ section.description }}</div>
 		<section class="photos">
-			<img v-for="photo in section.photos" :src="`${useRuntimeConfig().app.baseURL}${photo}`" alt="" :key="photo">
+			<img v-for="photo in section.photos" :src="`${photo}`" alt="" :key="photo">
+			<!-- <img v-for="photo in section.photos" :src="`${useRuntimeConfig().app.baseURL}${photo}`" alt="" :key="photo"> -->
 		</section>
 		<NuxtLink class="btn" :to="$localePath(section.link.page, $i18n.locale.value)">{{ section.link.text }}</NuxtLink>
 	</section>
