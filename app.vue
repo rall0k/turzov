@@ -22,6 +22,7 @@
 		// ogImage: `${useRuntimeConfig().public.siteUrl}${useRuntimeConfig().app.baseURL}${Global.value.body.ogImage}`,
 		ogImage: `${Global.value.body.ogImage}`,
 	})
+	
 	const config = useRuntimeConfig()
 </script>
 
