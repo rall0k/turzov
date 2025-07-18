@@ -11,7 +11,7 @@
 			{ name: 'keywords', content: Global.value.body.seo.keywords },
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: `/favicon.ico` }
+			{ rel: 'icon', type: 'image/x-icon', href: `favicon.ico` }
 			// { rel: 'icon', type: 'image/x-icon', href: `${useRuntimeConfig().app.baseURL}/favicon.ico` }
 		],
 	})
