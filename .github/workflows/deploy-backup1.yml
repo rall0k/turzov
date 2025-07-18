@@ -24,14 +24,10 @@ jobs:
         run: npm run generate
 
       - name: Add CNAME file
-        run: |
-          echo "turzov.sk" > ./dist/CNAME
-          cat ./dist/CNAME  # <- debug
+        run: echo "turzov.sk" > ./dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # Overenie, že má pridať aj CNAME
-          cname: turzov.sk
