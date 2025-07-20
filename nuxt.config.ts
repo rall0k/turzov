@@ -26,14 +26,22 @@ export default defineNuxtConfig({
 	},
 	compatibilityDate: '2024-11-01',
 	devtools: { enabled: true },
-	modules: ['@nuxtjs/i18n', '@primevue/nuxt-module', '@nuxt/content'],
+	modules: ['@nuxtjs/i18n', '@primevue/nuxt-module', '@nuxt/content', '@nuxtjs/sitemap'],
+	site: {
+		url: 'https://turzov.sk', // ← sem zadaj reálnu URL svojej stránky
+	},
+	sitemap: {
+		i18n: true,
+		sitemapPath: '/sitemap_index.xml',
+		xsl: false,
+	},
 	primevue: {
-        options: {
-            theme: {
-                preset: Material
-            }
-        }
-    },
+		options: {
+			theme: {
+				preset: Material
+			}
+		}
+	},
 	i18n: {
 		strategy: 'prefix_except_default',
 		defaultLocale: 'sk',
