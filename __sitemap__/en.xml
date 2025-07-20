@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://turzov.sk/en</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/" />
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_1_3-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_2_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_3-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_altanok.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_doska.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_salonik.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/terrace/bufet_pozicovna.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/terrace/bufet_pozicovna_2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TURZOVIA_nizkeprekazky.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://turzov.sk/en/accommodation</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/ubytovanie" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en/accommodation" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/ubytovanie" />
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_1_3-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_1_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_1_5-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_1_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_1_2-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_1_3-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_2_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_2_2-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_2_4-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_2_5-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_2_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_2_2-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_2_4-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_2_5-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_3-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_2-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_4-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_6-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/Izba_3_7-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_3_1-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_3_2-min.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/accommodation/kupelna_3_3-min.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://turzov.sk/en/restaurant</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/restauracia" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en/restaurant" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/restauracia" />
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_altanok.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_doska.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/restauracia_salonik.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_1.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_4.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_5.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_6.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_7.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/restaurant/menu/Menu_8.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://turzov.sk/en/terrace</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/terasa-a-pozicovna" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en/terrace" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/terasa-a-pozicovna" />
+        <image:image>
+            <image:loc>https://turzov.sk/terrace/bufet_pozicovna.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/terrace/bufet_pozicovna_2.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://turzov.sk/en/tips</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/tipy-na-vylet" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en/tips" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/tipy-na-vylet" />
+        <image:image>
+            <image:loc>https://media.kosiceregion.com/assets/53004/l_stolnajozef6.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.gelnica.sk/portals_pictures/i_004799/i_4799099.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://turzov.sk/en/turzovia</loc>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://turzov.sk/turzovia" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://turzov.sk/en/turzovia" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://turzov.sk/turzovia" />
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA1.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TurzoVIA4.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/TURZOVIA_nizkeprekazky.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/info/ksk.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://turzov.sk/turzovia/info/krt.png</image:loc>
+        </image:image>
+    </url>
+</urlset>
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.3 at 2025-07-20T13:14:08.161Z -->
