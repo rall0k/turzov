@@ -3,9 +3,9 @@
 	
 	"title": "Domov",
 	"dialog": {
-		"visible": false,
+		"visible": true,
 		"title": "Oznam",
-		"text": "Penzion Turzov bude dňa 30.06.2025 z prevádzkových dôvodov zatvorený. Ďakujeme za pochopenie. Vidíme sa 01.07.2025."
+		"text": "Lanové centrum TurzoVia pre Vás slávnostne otvoríme v piatok 1.8.2025."
 	},
 	"carousel": {
 		"autoplayInterval": 5000,
