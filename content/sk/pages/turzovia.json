@@ -10,7 +10,7 @@
 		"turzovia/TURZOVIA_nizkeprekazky.jpg"
 	],
 	"openingHoursTitle": "Otváracie hodiny",
-	"openingHoursInfo": "TurzoVIA je otvorená v mesiacoch apríl až september v závislosti od počasia. V prípade záujmu o rezerváciu nás prosím kontaktujte vopred.",
+	"openingHoursInfo": "TurzoVIA je otvorená v mesiacoch apríl až október v závislosti od počasia. V prípade záujmu o rezerváciu nás prosím kontaktujte vopred.",
 	"openingHours": [
 		{
 			"day": "Pondelok",
@@ -64,16 +64,10 @@
 			"price": "30€"
 		},
 		{
-			"name": "Permanentka pre ubytovaných hostí (5 vstupov)",
-			"price": "25€"
-		},
-		{
+			
 			"name": "Permanentka (10 vstupov)",
 			"price": "50€"
-		},
-		{
-			"name": "Permanentka pre ubytovaných hostí (10 vstupov)",
-			"price": "45€"
+		
 		}
 	],
 	"rules": {
