@@ -48,8 +48,8 @@
 			</DataTable>
 		</section>
 		<section class="rules">
-			<h2 class="title">{{ turzovia.body.rules.title }}</h2>
-			<a class="btn" :href="`${useRuntimeConfig().app.baseURL}${turzovia.body.rules.url}`">{{ turzovia.body.rules.label }}</a>
+			<!-- <h2 class="title">{{ turzovia.body.rules.title }}</h2> -->
+			<a class="btn" target="__blank" :href="`${useRuntimeConfig().app.baseURL}${turzovia.body.rules.url}`">{{ turzovia.body.rules.title }}</a>
 		</section>
 		<section class="info">
 			<img :src="`${useRuntimeConfig().app.baseURL}${turzovia.body.info.ksk}`" alt="">
@@ -100,7 +100,7 @@
 			}
 		}
 		.rules {
-			display: none;
+			display: flex;
 			flex-direction: column;
 			gap: 2rem;
 
