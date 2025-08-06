@@ -47,7 +47,6 @@ export default defineNuxtConfig({
 		defaultLocale: 'sk',
 		locales: [
 			{ code: 'sk', file: 'sk.json', flag: 'sk.png' },
-			{ code: 'en', file: 'en.json', flag: 'en.png' }
 		]
 	}
 })
