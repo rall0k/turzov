@@ -3,9 +3,9 @@
 	
 	"title": "Domov",
 	"dialog": {
-		"visible": false,
+		"visible": true,
 		"title": "Oznam",
-		"text": "Lanové centrum TurzoVia pre Vás slávnostne otvoríme v piatok 1.8.2025."
+		"text": "Lanové centrum TurzoVia je v právedzke v prípade priaznivého počasia denne od 11:00."
 	},
 	"carousel": {
 		"autoplayInterval": 5000,
