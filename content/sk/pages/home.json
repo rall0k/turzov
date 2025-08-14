@@ -5,7 +5,11 @@
 	"dialog": {
 		"visible": true,
 		"title": "Oznam",
-		"text": "Lanové centrum TurzoVia je v právedzke v prípade priaznivého počasia denne od 11:00."
+		"text": "📢Otváracie hodiny počas jarmočného víkendu (15.-16.8.2025): 
+Penzión Turzov- 10:00-17:00
+Lanové centrum TurzoVIA- 11:00-17:00
+Terasa "U nás na Turzove"- zatvorená
+V nedeľu pôjdu všetky tri prevádzky v štandardnom režime."
 	},
 	"carousel": {
 		"autoplayInterval": 5000,
