@@ -2,7 +2,7 @@
 	"id": "index",
 	"title": "Domov",
 	"dialog": {
-		"visible": true,
+		"visible": false,
 		"title": "Oznam",
 		"text": "📢Otváracie hodiny počas jarmočného víkendu (15.-16.8.2025): Penzión Turzov- 10:00-17:00. Lanové centrum TurzoVIA- 11:00-17:00. Terasa U nás na Turzove- zatvorená. V nedeľu pôjdu všetky tri prevádzky v štandardnom režime."
 	},
