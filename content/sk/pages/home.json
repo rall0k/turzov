@@ -2,7 +2,7 @@
 	"id": "index",
 	"title": "Domov",
 	"dialog": {
-		"visible": true,
+		"visible": false,
 		"title": "Oznam",
 		"text": "Vo štvrtok a piatok (21.8-22.8.2025) bude lanové centrum TurzoVIA z dôvodu nepriaznivého počasia mimo prevádzky."
 	},
