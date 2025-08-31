@@ -2,7 +2,7 @@
 	"id": "index",
 	"title": "Domov",
 	"dialog": {
-		"visible": false,
+		"visible": true,
 		"title": "Oznam",
 		"text": "Lanové centrum TurzoVIA bude od 1.9.2025 v prevádzke v prípade priaznivého počasia počas víkendov v čase od 13:00 do 17:00."
 	},
