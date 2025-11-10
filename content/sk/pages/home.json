@@ -2,7 +2,7 @@
 	"id": "index",
 	"title": "Domov",
 	"dialog": {
-		"visible": true,
+		"visible": false,
 		"title": "Oznam",
 		"text": "V sobotu 1.11.2025 bude Penzión Turzov zatvorený. Ďakujeme za pochopenie."
 	},
