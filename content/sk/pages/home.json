@@ -2,9 +2,9 @@
 	"id": "index",
 	"title": "Domov",
 	"dialog": {
-		"visible": false,
+		"visible": true,
 		"title": "Oznam",
-		"text": "V sobotu 1.11.2025 bude Penzión Turzov zatvorený. Ďakujeme za pochopenie."
+		"text": "Od septembra bude lanové centrum TurzoVIA v prevádzke počas víkendov v čase od 11:00 do 17:00 a počas týždňa len na objednávky."
 	},
 	"carousel": {
 		"autoplayInterval": 5000,
